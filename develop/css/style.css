@@ -11,6 +11,8 @@ body {
     background-color: rgb(255, 175, 25);
 }
 
+/* header section */
+
 header {
     overflow: hidden;
     position: fixed;
@@ -23,15 +25,22 @@ nav {
     padding: 10px;
 }
 
-ul li {
-    display: inline;
-    font-size: 15px;
-}
-
-.bar {
+.bar, a {
     background-color: rgb(69, 69, 69);
     color: white;
+    text-decoration: none;
 }
+
+a {
+    padding-right: 20px;
+}
+
+a:hover {
+    color:rgb(255, 175, 25);
+    text-transform: uppercase;
+}
+
+/* Middle section */
 
 main {
     text-align: center;
@@ -39,7 +48,7 @@ main {
 }
 
 #section-1 {
-    background-color: white;
+    background-color: rgb(235, 235, 235);
 }
 
 img {
@@ -55,6 +64,8 @@ p {
     margin: 20px auto;
 }
 
+/* Contact section */
+
 #section-2 {
     padding-top: 10px;
 }
@@ -63,10 +74,29 @@ form div {
     border: 5px solid;
     border-radius: 30px;
     width: 400px;
-    height: 90px;
+    height: 114px;
     margin: 20px auto;
     padding-top: 30px;
 }
+
+input {
+    width: 200px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+}
+
+button {
+    padding: 6px 64px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    border: 1px solid;
+    text-transform: uppercase;
+}
+
+/* footer section */
 
 footer {
     margin-top: auto;
